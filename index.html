@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>खबरों से रूबरू न्यूज़ | सच्चाई की आवाज़</title>
+<meta name="description" content="खबरों से रूबरू न्यूज़ — सच्चाई की आवाज़। उत्तर प्रदेश, लोनी और देश-दुनिया की ताज़ा खबरें।">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="topbar">ताज़ा खबरें • उत्तर प्रदेश • लोनी • देश-दुनिया</div>
+  <div class="brand">
+    <div>
+      <div class="logo">KHABRON SE <span>RUBAROO</span></div>
+      <div class="tagline">सच्चाई की आवाज़</div>
+    </div>
+    <button class="menu" onclick="toggleMenu()">☰</button>
+  </div>
+  <nav id="nav">
+    <a href="#home">होम</a>
+    <a href="#latest">ताज़ा खबरें</a>
+    <a href="#up">उत्तर प्रदेश</a>
+    <a href="#loni">लोनी</a>
+    <a href="#national">देश-दुनिया</a>
+    <a href="#video">वीडियो</a>
+    <a href="#contact">संपर्क</a>
+  </nav>
+  <div class="ticker"><b>BREAKING NEWS</b><span id="tickerText">खबरों से रूबरू न्यूज़ पर आपका स्वागत है — सच्चाई की आवाज़।</span></div>
+</header>
+
+<main id="home"><section class="featured-image"><img src="logo-news.jpg" alt="खबरों से रूबरू न्यूज़ — सैयद नईम"></section>
+  <section class="hero">
+    <div class="hero-main">
+      <div class="label">मुख्य खबर</div>
+      <h1>आपके शहर से लेकर देश-दुनिया तक, हर खबर पर हमारी नज़र</h1>
+      <p>निष्पक्ष और जिम्मेदार पत्रकारिता के साथ ताज़ा खबरें पढ़ें।</p>
+      <a class="btn" href="#latest">खबरें पढ़ें →</a>
+    </div>
+    <aside class="editor">
+      <div class="label">EDITOR'S DESK</div>
+      <h2>सैयद नईम</h2>
+      <p>“सिर्फ खबर नहीं… सच का आईना।”</p>
+    </aside>
+  </section>
+
+  <section id="latest">
+    <div class="section-title"><h2>ताज़ा खबरें</h2><span>LIVE UPDATES</span></div>
+    <div class="grid">
+      <article class="card big"><div class="photo">BREAKING<br>NEWS</div><div class="content"><span>ब्रेकिंग</span><h3>स्थानीय खबरों और महत्वपूर्ण अपडेट के लिए जुड़े रहें</h3><p>यहाँ आपकी ताज़ा खबर का शीर्षक और संक्षिप्त विवरण दिखाई देगा।</p></div></article>
+      <article class="card"><div class="photo alt">UP NEWS</div><div class="content"><span>उत्तर प्रदेश</span><h3>प्रदेश की बड़ी खबरें एक जगह</h3><p>ताज़ा अपडेट जल्द प्रकाशित किए जाएंगे।</p></div></article>
+      <article class="card"><div class="photo third">LONI</div><div class="content"><span>लोनी</span><h3>लोनी की हर छोटी-बड़ी खबर पर नज़र</h3><p>स्थानीय समाचार और जनसमस्याओं की रिपोर्टिंग।</p></div></article>
+    </div>
+  </section>
+
+  <section id="up">
+    <div class="section-title"><h2>उत्तर प्रदेश</h2><span>UP NEWS</span></div>
+    <div class="news-list">
+      <article><b>01</b><div><h3>उत्तर प्रदेश की प्रमुख खबरें</h3><p>राज्य की राजनीति, प्रशासन, विकास और जनहित से जुड़ी खबरें।</p></div></article>
+      <article><b>02</b><div><h3>जनता की आवाज़</h3><p>स्थानीय समस्याओं और जनहित के मुद्दों को प्रमुखता से उठाएं।</p></div></article>
+      <article><b>03</b><div><h3>शहर-शहर की अपडेट</h3><p>आपके क्षेत्र से सीधे खबरों का अपडेट।</p></div></article>
+    </div>
+  </section>
+
+  <section id="loni" class="dark-section">
+    <div class="section-title"><h2>लोनी न्यूज़</h2><span>LOCAL</span></div>
+    <div class="local-grid">
+      <div><strong>लोनी</strong><h3>आपके इलाके की खबर, आपकी आवाज़</h3><p>सड़क, पानी, नाली, बिजली और अन्य जनसमस्याओं से जुड़ी खबरें यहाँ प्रकाशित की जा सकती हैं।</p></div>
+      <div><strong>अपनी खबर भेजें</strong><h3>आप भी बनें खबरों का हिस्सा</h3><p>स्थानीय घटना की जानकारी, फोटो या वीडियो संपादकीय टीम तक भेजें।</p></div>
+    </div>
+  </section>
+
+  <section id="national">
+    <div class="section-title"><h2>देश-दुनिया</h2><span>NATIONAL & WORLD</span></div>
+    <div class="grid three">
+      <article class="card simple"><h3>🇮🇳 राष्ट्रीय खबरें</h3><p>देश की प्रमुख खबरों और महत्वपूर्ण घटनाओं का अपडेट।</p></article>
+      <article class="card simple"><h3>🌍 दुनिया</h3><p>अंतरराष्ट्रीय घटनाओं की ताज़ा जानकारी।</p></article>
+      <article class="card simple"><h3>💼 बिज़नेस</h3><p>अर्थव्यवस्था और व्यापार से जुड़ी खबरें।</p></article>
+    </div>
+  </section>
+
+  <section id="video">
+    <div class="section-title"><h2>वीडियो न्यूज़</h2><span>WATCH</span></div>
+    <div class="video-box">▶<p>आपके न्यूज़ वीडियो यहाँ दिखाई देंगे</p></div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div>
+      <div class="section-title"><h2>संपर्क करें</h2></div>
+      <p>खबर, विज्ञापन या सहयोग के लिए संपर्क करें।</p>
+    </div>
+    <form onsubmit="sendMessage(event)">
+      <input id="name" placeholder="आपका नाम" required>
+      <input id="email" type="email" placeholder="ईमेल" required>
+      <textarea id="message" placeholder="आपका संदेश" required></textarea>
+      <button class="btn" type="submit">संदेश भेजें</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <div class="logo">KHABRON SE <span>RUBAROO</span></div>
+  <p>सच्चाई की आवाज़</p>
+  <small>© 2026 Khabron Se Roobaru News. All rights reserved.</small>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
